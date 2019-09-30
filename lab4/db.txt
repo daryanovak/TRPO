@@ -1,0 +1,74 @@
+user
+
+hotel
+    id
+    hotleTypeId
+    title
+    rating
+    longitude
+    lotitude
+    cityId
+    description
+
+
+room
+    id
+    title
+    hotelId
+    roomTypeId
+    price
+    peopleCount
+    description
+
+roomType
+    id
+    title
+
+hotelType
+    id
+    title
+
+country
+    id
+    title
+
+region
+    id
+    title
+    countryId
+
+city
+    id
+    title
+    regionId
+
+comment
+    id
+    hotelId
+    userId
+    rating
+    pluses
+    minuses
+
+booking
+    userId
+    roomId
+    checkIn
+    checkOut
+    peopleCount
+    price
+
+image
+    id
+    imageUrl
+    alt
+
+imageroom
+    id
+    imageId
+    roomId
+
+imagehotel
+    id
+    imageId
+    hotelId
